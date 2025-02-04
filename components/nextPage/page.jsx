@@ -1,4 +1,3 @@
-import Image from "next/image";
 import GifLoad from "@/components/nextPage/gifLoad"
 export default function NextPage(){
     return(<>

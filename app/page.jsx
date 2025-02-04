@@ -10,10 +10,10 @@ export default function Home() {
   <div className="group w-[4rem] h-[4rem] bg-black fixed">
     <Image width={300} height={300} src={menu}></Image>
     <ul className="group-hover:block hidden text-white bg-black opacity-70">
-      <li><a href="#scroll1" classNameName="scroll_move">Main</a></li>
-      <li><a href="#scroll2" classNameName="scroll_move">info</a></li>
-      <li><a href="#scroll3" classNameName="scroll_move">nextJs</a></li>
-      <li><a href="#scroll4" classNameName="scroll_move">react</a></li>
+      <li><a href="#scroll1" className="scroll_move">Main</a></li>
+      <li><a href="#scroll2" className="scroll_move">info</a></li>
+      <li><a href="#scroll3" className="scroll_move">nextJs</a></li>
+      <li><a href="#scroll4" className="scroll_move">react</a></li>
     </ul>
   </div>
   <div className="listbox">

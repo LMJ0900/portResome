@@ -1,4 +1,3 @@
-import Image from "next/image";
 import GifLoad from "@/components/reactPage/gifLoad"
 export default function ReactPage(){
     return(<>

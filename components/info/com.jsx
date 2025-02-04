@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { infoData } from "../../data/info";
-function Com({id,src,data1,data2,data3,data4}){
+function Com({src,data1,data2,data3,data4}){
     return(<>
     <div className="w-[22vw] flex flex-col items-center">
         <Image className="w-[5rem] h-[5rem]" src={src} width={1000} height={1000}></Image>
